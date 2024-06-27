@@ -10,15 +10,17 @@ return require('packer').startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
+    use {'nvim-telescope/telescope-ui-select.nvim' }
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use('nvim-treesitter/playground')
 	use('theprimeagen/harpoon')
 	use('mbbill/undotree')
-	use('tpope/vim-fugitive')
- 
+	use('tpope/vim-fugitive') 
 
-    use{"ethan-heimer/crookedtheme"}
+    use{"ethan-heimer/crookedtheme", branch='3.0'}
+    use{"ethan-heimer/crookedpastel"}
+
     use{"neovim/nvim-lspconfig"}
 
     use{"hrsh7th/cmp-buffer"}
@@ -26,7 +28,13 @@ return require('packer').startup(function(use)
     use{"hrsh7th/cmp-cmdline"}
     use{"hrsh7th/nvim-cmp"}
     use{"hrsh7th/cmp-nvim-lsp"}
-
     use{"hrsh7th/cmp-vsnip"}
     use{"hrsh7th/vim-vsnip"}
+
+    use{
+        "folke/noice.nvim",
+        requires = {{"MunifTanjim/nui.nvim"}, {"rcarriga/nvim-notify"}}
+    }
+
+    use{"lukas-reineke/indent-blankline.nvim"}
 end)
