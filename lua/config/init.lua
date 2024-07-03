@@ -6,3 +6,4 @@ require("config.keyremap") --sorces the keyremap Lua file when this file is ran
 require("config.packer")
 
 
+
