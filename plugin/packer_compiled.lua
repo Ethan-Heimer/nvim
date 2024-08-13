@@ -119,6 +119,16 @@ _G.packer_plugins = {
     path = "/home/crookedshaft445/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
     url = "https://github.com/lukas-reineke/indent-blankline.nvim"
   },
+  ["mini.icons"] = {
+    loaded = true,
+    path = "/home/crookedshaft445/.local/share/nvim/site/pack/packer/start/mini.icons",
+    url = "https://github.com/echasnovski/mini.icons"
+  },
+  ["netrw.nvim"] = {
+    loaded = true,
+    path = "/home/crookedshaft445/.local/share/nvim/site/pack/packer/start/netrw.nvim",
+    url = "https://github.com/prichrd/netrw.nvim"
+  },
   ["noice.nvim"] = {
     loaded = true,
     path = "/home/crookedshaft445/.local/share/nvim/site/pack/packer/start/noice.nvim",

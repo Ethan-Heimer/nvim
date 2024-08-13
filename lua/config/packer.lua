@@ -18,7 +18,7 @@ return require('packer').startup(function(use)
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive') 
 
-    use{"ethan-heimer/crookedtheme", branch='3.0'}
+    use{"ethan-heimer/crookedtheme", branch='4.0'}
     use{"ethan-heimer/crookedpastel"}
 
     use{"neovim/nvim-lspconfig"}
@@ -37,4 +37,6 @@ return require('packer').startup(function(use)
     }
 
     use{"lukas-reineke/indent-blankline.nvim"}
+    use 'prichrd/netrw.nvim'
+    use 'echasnovski/mini.icons'
 end)

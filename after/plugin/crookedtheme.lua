@@ -2,8 +2,6 @@ local crooked = require("crookedtheme")
 
 local crookedpastel = require("crookedpastel")
 
-print(crookedpastel)
-
 crooked.AddTheme(crookedpastel.pastel)
 crooked.AddTheme(crookedpastel.pastelLight)
 crooked.AddTheme(crookedpastel.pastelNight)
